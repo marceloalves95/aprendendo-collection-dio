@@ -1,4 +1,6 @@
-package me.rubio.alves.testes
+package testes
+
+import objetos.Funcionario
 
 
 /*
@@ -29,27 +31,9 @@ fun main() {
         .forEach { println(it) }
 
 
-
-
-
-
-
 }
 
 
-data class Funcionario(
 
-    val nome:String,
-    val salario:Double,
-    val tipo_contratacao:String
-    ){
-
-    override fun toString(): String  =
-        """
-        Nome:      $nome
-        Salário:   $salario
-        """.trimIndent()
-
-}
 
 
